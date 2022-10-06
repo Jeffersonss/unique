@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,900|Raleway:400,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family:'Raleway', sans-serif;
+    color: #483024;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #6B4532;
+    height: 20vh;
+}
+.cabecalho figure{
+    font-family:'Playfair Display', serif;
+    font-weight: 900;
+   font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+}
+.cabecalho figure img{
+    margin-right: 10px;
+    
+}
+.cabecalho-menu{
+    display: flex;
+    list-style-type: none;
+}
+.cabecalho-menu li{
+    margin-left: 2em;
+}
+.cabecalho-menu li a{
+    font-size: 1.5rem;
+    color:  #483024;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 6%;
+}
+.hero-esquerda{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 47.8%;
+}
+.hero-esquerda--textos{
+    text-align: right;
+}
+.hero-esquerda--textos h1{
+    font-family:'Playfair Display', serif;
+    font-weight: 400;
+    color: #6B4532;
+    font-size: 3.93rem;
+    margin-bottom: 10px;
+}
+.hero-esquerda--textos h1 strong{
+    font-size: 4.5rem;
+}
+.hero-esquerda--textos p{
+    font-size: 1.25rem;
+    line-height: 150%;
+    width: 90%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+.hero-esquerda--textos a{
+    color: #6B4532;
+    font-weight: 700;
+    font-size: 1.5rem;
+    position: relative;
+    padding-bottom: .5em;
+}
+.hero-esquerda--textos a::after{
+    content: "";
+    width: 2em;
+    height: 3px;
+    background-color: #6B4532;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+ }
+.hero-esquerda--textos a img{
+    margin-left: 10px;
+}
+.hero-esquerda--icons{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.hero--figure img{
+    box-shadow: 0px 15px 45px rgba(0, 0, 0, 0.38);
+}
+.composicao{
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+}
